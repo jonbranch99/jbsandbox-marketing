@@ -2,7 +2,7 @@ import { PolicyPage, PolicyH2 } from "@/components/policy-page";
 
 export default function TermsPage() {
   return (
-    <PolicyPage title="Terms of Service" lastUpdated="[INSERT DATE]">
+    <PolicyPage title="Terms of Service" lastUpdated="May 16, 2026">
       <p>
         Welcome to JBSandbox. By accessing or using MarkSpot or any other
         service operated by JBSandbox ("we," "us," "our"), you agree to
@@ -137,8 +137,7 @@ export default function TermsPage() {
 
       <PolicyH2>11. Governing Law</PolicyH2>
       <p>
-        These Terms are governed by the laws of the State of [INSERT YOUR
-        STATE], United States, without regard to conflict-of-law principles.
+        These Terms are governed by the laws of the State of New York, United States, without regard to conflict-of-law principles.
       </p>
 
       <PolicyH2>12. Contact</PolicyH2>

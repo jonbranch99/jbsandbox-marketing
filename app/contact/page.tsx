@@ -56,7 +56,7 @@ export default function ContactPage() {
         </div>
 
         <div className="pt-8 border-t border-slate-200 text-sm italic text-slate-500">
-          JBSandbox is based in [INSERT CITY, STATE].
+          JBSandbox is based in New York, NY.
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { PolicyPage, PolicyH2 } from "@/components/policy-page";
 
 export default function RefundPolicyPage() {
   return (
-    <PolicyPage title="Refund Policy" lastUpdated="[INSERT DATE]">
+    <PolicyPage title="Refund Policy" lastUpdated="May 16, 2026">
       <p>
         This Refund Policy applies to all purchases made through JBSandbox,
         including subscriptions to MarkSpot.

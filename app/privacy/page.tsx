@@ -2,7 +2,7 @@ import { PolicyPage, PolicyH2 } from "@/components/policy-page";
 
 export default function PrivacyPage() {
   return (
-    <PolicyPage title="Privacy Policy" lastUpdated="[INSERT DATE]">
+    <PolicyPage title="Privacy Policy" lastUpdated="May 16, 2026">
       <p>
         This Privacy Policy explains how JBSandbox collects, uses, and protects
         your information when you use our services, including MarkSpot.

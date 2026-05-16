@@ -2,7 +2,7 @@ import { PolicyPage, PolicyH2 } from "@/components/policy-page";
 
 export default function CancellationPolicyPage() {
   return (
-    <PolicyPage title="Cancellation Policy" lastUpdated="[INSERT DATE]">
+    <PolicyPage title="Cancellation Policy" lastUpdated="May 16, 2026">
       <p>
         This Cancellation Policy explains how to cancel a MarkSpot subscription,
         when billing stops, and what happens to your account after cancellation.
