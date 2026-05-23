@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -68,8 +69,15 @@ export default function Home() {
               See pricing
             </Link>
           </div>
-          <div className="rounded-xl border border-slate-200 bg-slate-50 aspect-[4/3] flex items-center justify-center text-slate-400 text-sm">
-            [MarkSpot screenshot]
+          <div className="rounded-xl border border-slate-200 bg-slate-50 overflow-hidden shadow-lg">
+            <Image
+              src="/markspot-screenshot.png"
+              alt="MarkSpot PDF editor — toolbar, document canvas, and properties panel"
+              width={1440}
+              height={900}
+              priority
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </section>
