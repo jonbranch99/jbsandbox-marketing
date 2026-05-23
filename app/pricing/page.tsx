@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const MARKSPOT_URL = "https://markspot-app.vercel.app/";
+
 const tiers = [
   {
     name: "Day Pass",
@@ -13,6 +15,7 @@ const tiers = [
       "One-time charge",
     ],
     cta: "Get a Day Pass",
+    href: `${MARKSPOT_URL}?plan=day`,
     featured: false,
     badge: null,
   },
@@ -28,6 +31,7 @@ const tiers = [
       "Cancel anytime",
     ],
     cta: "Start Monthly Plan",
+    href: `${MARKSPOT_URL}?plan=monthly`,
     featured: true,
     badge: "Most popular",
   },
@@ -42,6 +46,7 @@ const tiers = [
       "Cancel anytime",
     ],
     cta: "Start Annual Plan",
+    href: `${MARKSPOT_URL}?plan=annual`,
     featured: false,
     badge: "Save $10",
   },
@@ -94,8 +99,8 @@ export default function PricingPage() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="#"
+            <a
+              href={tier.href}
               className={`mt-8 inline-block text-center rounded-md px-5 py-2.5 text-sm font-semibold transition-colors ${
                 tier.featured
                   ? "bg-slate-900 text-white hover:bg-slate-800"
@@ -103,7 +108,7 @@ export default function PricingPage() {
               }`}
             >
               {tier.cta}
-            </Link>
+            </a>
           </div>
         ))}
       </div>
