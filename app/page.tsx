@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div className="rounded-xl border border-slate-200 bg-slate-50 overflow-hidden shadow-lg">
             <Image
-              src="/markspot-screenshot.png"
+              src="/markspot-screenshot.jpg"
               alt="MarkSpot PDF editor — toolbar, document canvas, and properties panel"
               width={1440}
               height={900}
